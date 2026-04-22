@@ -1,89 +1,69 @@
-# Markit Agency - Practice Project
+# Markit Agency - Planerio Account
 
-> Your marketing agency sandbox for learning Claude Code
+> Your marketing agency sandbox for learning Claude Code. You play the role of Marketing Strategist at **Markit**, working on the **Planerio** account.
 
-## About Markit
+## The Planerio Product
 
-**Markit** is a fictional marketing agency specializing in B2B SaaS clients. In this course, you play the role of Marketing Strategist at Markit.
+**Planerio** is a B2B SaaS team productivity coordination tool that helps distributed teams coordinate focus time using AI.
 
-## Your Client: Planerio
+### At a glance
 
-**Planerio** is a team productivity coordination tool that helps distributed teams coordinate focus time using AI.
+| | |
+|---|---|
+| **Category** | B2B SaaS — productivity / team coordination |
+| **Target customer** | Distributed team managers at tech companies (50–500 employees) |
+| **Pricing** | $12 / user / month, 14-day free trial |
+| **Positioning** | *Smart productivity coordination for distributed teams* |
+| **Key feature** | Coordinate focus time across an entire team using AI |
+| **Integrations** | Slack, Zoom, Google Workspace |
 
-### Product Details
-- **Category:** B2B SaaS
-- **Target:** Distributed team managers at tech companies (50-500 employees)
-- **Pricing:** $12/user/month, 14-day free trial
-- **Key Feature:** Coordinate focus time across entire teams
-- **Positioning:** "Smart productivity coordination for distributed teams"
-- **Integrations:** Slack, Zoom, Google Workspace
+### What it does
 
-### Target Personas
+Planerio analyzes each team member's calendar, meeting load, and work rhythms, then uses AI to negotiate shared focus blocks across the team. Instead of each person guarding their own time, Planerio coordinates the team's time as a system — so makers get deep work, managers get predictable collaboration windows, and no one has to play calendar Tetris.
 
-1. **Manager Maria** - Distributed team manager, 35-45, manages 10-15 developers
-2. **Founder Fiona** - Startup founder, 28-35, juggling many roles
-3. **Director Dana** - Marketing director, 40-50, mid-size company
+### Target personas
 
-### Competitors
-- Clockwise (calendar optimization)
-- RescueTime (individual time tracking)
-- Reclaim.ai (smart scheduling)
+1. **Manager Maria** — Distributed team manager, 35–45. Manages 10–15 developers. Pain: meetings fragment her team's day; she can't protect focus time at scale.
+2. **Founder Fiona** — Startup founder, 28–35. Juggling product, sales, and hiring. Pain: every hour is contested; context-switching kills her output.
+3. **Director Dana** — Marketing director, 40–50. Mid-size company. Pain: cross-functional coordination is a full-time job on top of her actual job.
 
-## Folder Structure
+### Competitive landscape
 
-### Starter State (right after clone)
+- **Clockwise** — calendar optimization for individuals; weaker on team-level coordination.
+- **RescueTime** — individual time tracking and focus; reports, not coordination.
+- **Reclaim.ai** — smart scheduling for personal priorities; less emphasis on team rituals.
 
-In a fresh clone, this practice project contains only:
+Planerio's wedge: **team-first** coordination, not individual optimization.
+
+### Brand voice
+
+- **Tone:** professional but approachable
+- **Style:** knowledgeable without being condescending
+- **Perspective:** "we" and "you"
+- **Focus:** benefits before features
+- **Avoid:** hyperbole, jargon, passive voice
+
+## Project structure
 
 ```text
 exercises/markit/
-└── README.md
+├── campaigns/   # Campaign briefs and plans
+├── content/     # Blog posts, emails, ads, social
+├── research/    # Competitive analysis and market research
+├── analytics/   # Performance data and reports
+└── brand/       # Brand guidelines and personas
 ```
 
-This is expected. The folders below are created during `/start-0-1` and populated progressively through lessons.
+Each folder fills in as you progress through the course lessons.
 
-### Target Structure (built across lessons)
+## Getting started
 
-```text
-exercises/markit/
-├── campaigns/          # Campaign briefs and plans
-│   ├── q1-launch/     # Q1 product launch campaign
-│   └── q2-growth/     # Q2 growth campaign
-├── content/           # Marketing content
-│   ├── blog/          # Blog posts and outlines
-│   ├── email/         # Email sequences
-│   ├── social/        # Social media content
-│   │   ├── linkedin/
-│   │   └── twitter/
-│   └── ads/           # Paid advertising copy
-├── brand/             # Brand assets
-│   ├── personas/      # Customer persona docs
-│   └── reviewers/     # Custom sub-agent reviewers
-├── research/          # Research and analysis
-│   └── competitors/   # Competitive intelligence
-├── analytics/         # Performance data and reports
-└── templates/         # Reusable templates
-```
+1. Type `/start-0-0` to begin the course.
+2. Follow the interactive lessons.
+3. Create real marketing assets in the folders above.
 
-## Getting Started
-
-1. Type `/start-0-0` to begin the course
-2. Follow the interactive lessons
-3. Create real marketing assets in this project
-4. Build your knowledge with each lesson
-
-## Course Progress
-
-As you complete lessons, you'll create:
-- Brand guidelines and personas
-- Campaign briefs
-- Multi-channel content
-- Competitive analysis
-- SEO strategies
-- Custom sub-agent reviewers
-
-Each file you create builds on the previous lessons, demonstrating the **Compounding Effect** - where each campaign makes the next one easier.
+As you complete lessons you'll build campaign briefs, multi-channel content, competitive analysis, SEO strategies, and custom sub-agent reviewers — each one building on the last (the **Compounding Effect**).
 
 ---
 
-**Ready to start?** Type `/start-0-0` in Claude Code!
+**Ready?** Type `/start-0-0` in Claude Code.
